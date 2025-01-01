@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'dentowahyu/saklarjs:latest'
-        CONTAINER_NAME = 'saklar'
-        PORT_MAPPING = '8089:80'  // Adjust the port mapping as needed
+        DOCKER_IMAGE = 'dentowahyu/calculator:latest'
+        CONTAINER_NAME = 'calculator'
+        PORT_MAPPING = '8081:80'  // Adjust the port mapping as needed
     }
 
     stages {
